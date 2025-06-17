@@ -1,7 +1,7 @@
 const { default: mongoose } = require("mongoose");
 const { float32 } = require("zod/v4");
 
-mongoose.connect("mongodb+srv://amandeepsinghkaillay:RXvi9JV7WhZ4Euz0@cluster0.vrsimst.mongodb.net/");
+mongoose.connect("*******");
 
 const userSchema = new mongoose.Schema({
   username: String,
